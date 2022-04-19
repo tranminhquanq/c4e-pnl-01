@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .parent {
+  width: 100vw;
+  height: 100vh;
+  background: yellow;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+}
+
+.square-red {
+  background-color: red;
+}
+
+.square-green {
+  background-color: green;
+}
+
+.square-blue {
+  background-color: blue;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 200px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.my-input {
+  padding: 14px 16px;
+  font-size: 17px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+}
+
+.form button {
+  border-radius: 6px;
+  padding: 12px 0px;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-login {
+  background: #1877f2;
+  margin-bottom: 8px;
+}
+
+.create-account-container {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin: 12px 0px;
+}
+
+.btn-create-account {
+  width: 45%;
+  background-color: #42b72a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-link {
+  color: #1877f2;
+}
+
+/* .parent {
+  width: 1000px;
+  height: 500px;
+  background: blue;
+}
+
+.child-1 {
+  width: 25%;
+  height: 100%;
+  background: yellow;
+}
+
+.child-2 {
+  width: 50%;
+  height: 50%;
+  background: green;
+} */
