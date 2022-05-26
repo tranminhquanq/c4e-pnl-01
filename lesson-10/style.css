@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movie-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.movie-item {
+  width: calc(100% / 6 - 70px);
+  margin-bottom: 15px;
+}
+
+.movie-img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
