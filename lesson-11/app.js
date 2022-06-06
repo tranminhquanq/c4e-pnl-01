@@ -70,3 +70,14 @@ function getMovies() {
 }
 
 getMovies();
+
+/// Code
+// Add: -    git add .
+// Commit: git commit -m "day la commit dau tien cua toi"
+// Push:
+
+const message = {
+  avatar: "https://i.imgur.com/7yUvePI.png",
+  name: "Nguyen Van A",
+  content: "Hello World",
+};
