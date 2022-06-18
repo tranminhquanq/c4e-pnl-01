@@ -41,11 +41,45 @@
       border-radius: 50%;
       margin-right: 15px;
     }
+
+    .form-wrapper {
+      width: 400px;
+      margin: 35px auto;
+    }
+
+    .form-input-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
   </style>
 </head>
 
 <body>
+  <div class="form-wrapper">
+    <div class="form-input-wrapper">
+      <input id="msgId" type="text" placeholder="enter your id">
+      <input id="content_update" type="text" placeholder="enter your message">
+    </div>
+    <button onclick="editData()">Edit</button>
+  </div>
+
+  <div class="form-wrapper">
+    <div class="form-input-wrapper">
+      <input id="userName" type="text" placeholder="enter your name">
+      <input id="content_send" type="text" placeholder="enter your message content">
+      <input id="avatar" type="text" placeholder="enter your avatar link">
+    </div>
+    <button onclick="addData()">Add</button>
+  </div>
+
+  <div class="form-wrapper">
+    <div class="form-input-wrapper">
+      <input id="delete_id" type="text" placeholder="enter your delete id">
+    </div>
+    <button onclick="deleteData()">Delete</button>
+  </div>
   <div id="root"></div>
+  <!-- <a href="./detail.html"></a> -->
   <script src="./app.js"></script>
 </body>
 
